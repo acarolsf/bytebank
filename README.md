@@ -1,16 +1,27 @@
-# bytebank
+# ByteBank
 
-A new ByteBank project.
+App desenvolvido durante a [Formação de Flutter](https://cursos.alura.com.br/formacao-flutter) do Alura.
 
-## Getting Started
+## Tecnologias Utilizadas
+Durante esse projeto foram utilizada as seguintes tecnologias e suas versões:
+- [Flutter](https://docs.flutter.dev/get-started/install): 2.8.1
+- [Android SDK](https://developer.android.com/studio): 31.0.0
+- [IntelliJ](https://www.jetbrains.com/idea/download/): IDEA Community Edition 2021.2
 
-This project is a starting point for a Flutter application.
+## Web API Utilizada
+Durante a formação, o professor disponibiliza um pequeno servidor para ser rodado na máquina, caso o aluno possua pouco acesso a internet, essas coisas.
+O servidor está disponibilizado aqui: [ByteBank Web API](https://github.com/alura-cursos/bytebank-api/tree/runnable) e lá possui algumas instruções sobre como rodar e acessar os endpoints disponíveis. Mas, para me guiar, eu vou deixar algumas instruções já aqui.
 
-A few resources to get you started if this is your first Flutter project:
+<span style="color: red;">Essas instruções eu utilizei no Windows, eu não sei se funciona para todos os sistemas operacionais</span>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Comando de rodar no terminal**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+java -jar server.jar
+```
+
+**Comando de excluir os dados inseridos**
+
+```
+rmdir /S database
+```
