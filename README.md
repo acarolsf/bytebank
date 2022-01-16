@@ -12,7 +12,7 @@ Durante esse projeto foram utilizada as seguintes tecnologias e suas versões:
 Durante a formação, o professor disponibiliza um pequeno servidor para ser rodado na máquina, caso o aluno possua pouco acesso a internet, essas coisas.
 O servidor está disponibilizado aqui: [ByteBank Web API](https://github.com/alura-cursos/bytebank-api/tree/runnable) e lá possui algumas instruções sobre como rodar e acessar os endpoints disponíveis. Mas, para me guiar, eu vou deixar algumas instruções já aqui.
 
-<span style="color: red;">Essas instruções eu utilizei no Windows, eu não sei se funciona para todos os sistemas operacionais</span>
+<span style="color: #FF0000;">Essas instruções eu utilizei no Windows, eu não sei se funciona para todos os sistemas operacionais</span>
 
 **Comando de rodar no terminal**
 

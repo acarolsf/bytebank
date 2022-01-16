@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class LoadingElement extends StatelessWidget {
-
   final String message;
 
   LoadingElement({this.message = 'Loading..'});
@@ -14,7 +13,15 @@ class LoadingElement extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           CircularProgressIndicator(),
-          Text(message),
+          Padding(
+            padding: const EdgeInsets.only(top: 8.0),
+            child: Text(
+              message,
+              style: TextStyle(
+                fontSize: 16,
+              ),
+            ),
+          ),
         ],
       ),
     );
